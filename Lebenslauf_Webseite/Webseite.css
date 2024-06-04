@@ -1,0 +1,259 @@
+* {
+  font-family: sans-serif;
+}
+
+.Kontaktformular {
+  display: grid;
+  gap: 1rem;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+video {
+  align-self: center;
+  justify-self: center;
+}
+
+.Kontaktformular-Item {
+  border-radius: 1rem;
+  background-color: darkgrey;
+}
+
+@media (min-width:750px) {
+  
+
+  .Navbar {
+    text-decoration: none;
+    color: Black;
+    background-color: white;
+    padding: 1%;
+
+  }
+
+  .Navbar-Item {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 1%;
+  }
+
+  .Topbar {
+    background-color: #02CCFE;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    height: max-content;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #Bild {
+    align-self: center;
+    justify-self: left;
+    max-width: 150px;
+    max-height: 150px;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 5%;
+  }
+
+
+  #Title {
+  
+    color: white;
+
+    font-family: sans-serif;
+    justify-self: center;
+    align-self: center;
+
+  }
+
+  h1 {
+    font-size: 400%;
+  }
+
+  h2 {
+    color: #02CCFE;
+  }
+
+  .Inhalt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .Inhalt-Item {
+    padding: 5%;
+    margin:10px;
+    text-align: left;
+  }
+
+  footer {
+    background-color: #02CCFE;
+    border-radius: 1rem;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+  }
+
+  footer > a {
+    color: white;
+    text-decoration: none;
+  }
+
+    #Inhalt-Bild {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    max-width: 200px;
+    max-height: 500px;
+    width: max-content;
+    height: max-content;
+ 
+  }
+
+}
+
+@media (max-width:1190px) {
+  h1 {
+    font-size: 300%;
+  }
+  #Bild {
+    align-self: center;
+    justify-self: left;
+    padding-left: 10%;
+    padding: 5%;
+    max-width: 100px;
+    max-height: 100px;
+    height: max-content;
+    width: max-content;
+  }
+}
+
+@media (max-width:900px) {
+  h1 {
+    font-size: 250%;
+  }
+}
+
+
+@media (max-width: 750px) {
+
+  .Navbar {
+    text-decoration: none;
+    color: Black;
+    background-color: white;
+    padding: 1%;
+
+  }
+
+  .Navbar-Item {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 1%;
+  }
+
+  .Topbar {
+    background-color: #02CCFE;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    height: max-content;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #Bild {
+    align-self: center;
+    justify-self: left;
+    padding-left: 10%;
+  }
+
+
+  #Title {
+  
+    color: white;
+
+    font-family: sans-serif;
+    justify-self: center;
+    align-self: center;
+
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    color: #02CCFE;
+  }
+
+  .Inhalt {
+    align-content: center;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .Inhalt-Item {
+    padding: 2%;
+    margin:10px;
+    text-align: left;
+  }
+
+
+  #Inhalt-Bild {
+    display: flex;
+    margin: auto;
+    max-width: 200px;
+    max-height: 400px;
+    width: max-content;
+    height: max-content;
+  }
+
+  footer {
+    background-color: #02CCFE;
+    border-radius: 1rem;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+  }
+
+  footer > a {
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+  }
+
+  video {
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 605px) {
+  h1 {
+    font-size: 175%;
+  }
+}
+
+@media (max-width:530px) {
+  h1 {
+    font-size: 150%;
+  }
+}
+
+@media (max-width:457px) {
+  h1 {
+    font-size: 125%;
+  }
+
+}
+/* Grösse wird bis 400 breite angepasst */
